@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h3>Numero 1</h3>
+        <input type="text" id="num1">
+        <br>
+        <h3>Numero 2</h3>
+        <input type="text" id="num2">
+        
+        
+        <div class="buttons">
+           <select>
+                <option id="suma">Suma</option>
+                <option id="resta">Resta</option>
+                <option id="multiplicacion">multiplicacion</option>
+                <option id="division">division</option>
+           </select> 
+
+           <button id="opcion">Ejecutar</button>
+        </div>
+
+        <div>
+            <label>Resultado</label>
+            <input type="text" readonly>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
